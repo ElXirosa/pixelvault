@@ -1,0 +1,56 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+h1{
+    font-size: 1.2em;
+}
+
+.deliveryContainer, .paymentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.twoTextInputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+label, input{
+    color: white;
+}
+
+input{
+    background-color: #2a2a2a;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    padding: 5px 10px 5px 5px;
+}
+
+.btnPayment{
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    background-color: #7c3aed;
+    color: white;
+}
+
+.spError{
+    color: red;
+}

@@ -1,0 +1,26 @@
+footer{
+    margin-top: 25px;
+    padding: 2px 20px 2px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+.spCopyright{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

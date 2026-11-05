@@ -1,0 +1,43 @@
+.mainContainer{
+    border-radius: 15px;
+    padding: 35px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.titleBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.boxTwoInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.boxInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.checkboxBox{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.spError{
+    color: red;
+}

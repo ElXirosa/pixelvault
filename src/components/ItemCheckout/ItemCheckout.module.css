@@ -1,0 +1,28 @@
+.itemContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.itemInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.spName, .spAmount{
+    color: white;
+}
+
+.spPrice{
+    color: blueviolet;
+}
+

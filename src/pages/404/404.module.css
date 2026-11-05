@@ -1,0 +1,46 @@
+.mainWrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.errorContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 150px;
+}
+
+.title{
+    font-size: 5.5em;
+    color: blueviolet;
+}
+
+.spUnfindPage{
+    color: white;
+    font-size: 2.5em;
+}
+
+.pErrorInfo{
+    color: grey;
+    font-size: 2em;
+}
+
+.indexLink{
+    border-radius: 15px;
+    font-size: 1.2em;
+    padding: 15px 10px 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+}

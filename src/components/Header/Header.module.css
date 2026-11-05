@@ -1,0 +1,47 @@
+header{
+    padding: 25px 10px 25px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+.pxLogo{
+    color: white;
+    font-size: 1.1em;
+}
+
+.pxHeaderInput{
+    outline-style: none;
+    border: 1px solid black;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 800;
+    padding: 5px 15px 5px 2px;
+    background-color: #2a2a2a;
+}
+
+.pxCta{
+    position: relative;
+    text-decoration: none;
+    border: none;
+    padding: 10px 35px 10px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7c3aed;
+    color: white;
+}
+
+.cartValue{
+    z-index: 999;
+    top: 4px;
+    right: 5px;
+    position: absolute;
+    font-size: 0.8em;
+    color: green;
+    font-weight: 900;
+    background-color: white;
+    padding: 1px 6px 1px 6px;
+    border-radius: 50%;
+}

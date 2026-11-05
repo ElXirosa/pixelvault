@@ -1,0 +1,18 @@
+.topCart{
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: white;
+}
+
+.btnClear{
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    color: red;
+    border: 1px solid red;
+    background: transparent;
+}

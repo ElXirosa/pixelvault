@@ -1,0 +1,57 @@
+.item{
+    background-color: #1a1a1a;
+    padding: 15px 25px 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftContainerItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.boxItemInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.spItemName, .spTotalPerItem{
+    color: white;
+}
+
+.spItemPrice{
+    color: blueviolet;
+}
+
+.rightContainerItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.quantityBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spQuantitySymbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 12px 2px 12px;
+    background-color: #2a2a2a;
+    font-size: 1.4em;
+    color: white;
+}
+
+.clickable{
+    cursor: pointer;
+}

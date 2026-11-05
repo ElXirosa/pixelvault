@@ -1,0 +1,31 @@
+.checkoutContainer{
+    margin-top: 20px;
+    padding: 25px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ssTotalContainer, .totalContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spSsTotal,  .spSsTotalValue, .spTotal{
+    color: white;
+}
+
+.spTotalValue{
+    color: blueviolet;
+}
+
+.btnBuy{
+    cursor: pointer;
+    border: none;
+    padding: 20px 0px 20px 0px;
+    background-color: #7c3aed;
+    color: white;
+}

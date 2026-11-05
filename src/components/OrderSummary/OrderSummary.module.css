@@ -1,0 +1,27 @@
+.recapContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.itemList{
+    padding: 20px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.totalContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spTotal{
+    color: white;
+}
+
+.spTotalPrice{
+    color: blueviolet;
+}
